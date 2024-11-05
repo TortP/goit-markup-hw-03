@@ -5,11 +5,10 @@
 }
 
 .container {
+  display: flex;
   max-width: 1158px;
-  padding-left: 0;
-  padding-right: 0;
-  margin-left: 126;
-  margin-right: 126;
+  margin: 0 auto;
+  padding: 0 15px;
 }
 
 body {
@@ -18,8 +17,13 @@ body {
   background-color: #ffffff;
 }
 
+img {
+  display: block;
+}
+
 .header {
   background-color: #ffffff;
+  border-bottom: 1px solid #e7e9fc;
 }
 
 .logo {
@@ -31,6 +35,7 @@ body {
   text-transform: uppercase;
   color: #4d5ae5;
   text-decoration: none;
+  margin-right: 76px;
 }
 
 .logo .logo-header {
@@ -39,10 +44,15 @@ body {
 
 .nav {
   justify-content: space-between;
+  display: flex;
+  align-items: center;
 }
 
 .menu {
   list-style: none;
+  display: flex;
+  gap: 40px;
+  padding: 24px 0;
 }
 
 .menu-link {
@@ -87,11 +97,14 @@ body {
 }
 
 .address {
+  display: flex;
+  gap: 40px;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
   text-decoration: none;
+  list-style: none;
 }
 
 .address:hover,
@@ -203,7 +216,6 @@ body {
 
 .portfolio-item {
   background-color: #ffffff;
-  border: 1px solid #e7e9fc;
 }
 
 .portfolio-title {
