@@ -187,6 +187,11 @@ img {
   border: 1px solid #e7e9fc;
 }
 
+.visually-hidden {
+  position: fixed;
+  transform: scale(0);
+}
+
 .feature-title {
   font-weight: 500;
   font-size: 20px;
@@ -329,10 +334,12 @@ img {
 
 .footer .logo {
   margin-bottom: 16px;
-  display: inline-block;
 }
 
 .footer .logo-footer {
   color: #f4f4fd;
+}
+
+.footer > a {
   display: inline-block;
 }
