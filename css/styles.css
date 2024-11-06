@@ -20,6 +20,7 @@ body {
 
 img {
   display: block;
+  width: 100%;
 }
 
 .header {
@@ -177,6 +178,9 @@ img {
   justify-content: space-around;
 }
 
+.features-list  li:first-child {
+  width: calc((100% - 72px) / 4);
+}
 .feature-item {
   width: calc((100% - 72px) / 4);
 }
@@ -238,6 +242,10 @@ img {
   justify-content: space-around;
 }
 
+.team-list li:first-child {
+  width: calc((100% - 72px) / 4);
+}
+
 .team-card {
   width: calc((100% - 72px) / 4);
   background-color: #ffffff;
@@ -284,6 +292,10 @@ img {
   flex-wrap: wrap;
   list-style: none;
   justify-content: space-between;
+}
+
+.portfolio-list li:first-child {
+  width: calc((100% - 48px) / 3);
 }
 
 .portfolio-item {
@@ -344,6 +356,10 @@ img {
   margin-right: 76px;
   display: inline-block;
   margin-bottom: 16px;
+}
+
+.footer a {
+  display: inline-block;
 }
 
 .footer .logo-footer {
