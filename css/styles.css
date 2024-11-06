@@ -307,10 +307,12 @@ img {
   flex-wrap: wrap;
   list-style: none;
   justify-content: space-between;
+  padding-left: 0;
+  margin: 0;
 }
 
 .portfolio-list li {
-  width: calc((100% - 48px) / 3); /* Ширина каждого элемента для трех в ряду */
+  width: calc((100% - 48px) / 3); 
   box-sizing: border-box;
 }
 
