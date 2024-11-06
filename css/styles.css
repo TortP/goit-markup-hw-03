@@ -37,6 +37,7 @@ img {
   color: #4d5ae5;
   text-decoration: none;
   margin-right: 76px;
+  display: inline-block;
 }
 
 .footer .logo {
@@ -235,6 +236,7 @@ img {
 
 .visually-hidden {
   visibility: hidden;
+  clip: rect(0, 0, 0, 0);
 }
 
 .team-list {
@@ -316,6 +318,7 @@ img {
 .portfolio-div {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
+  border-top: none; 
 }
 
 .footer {
