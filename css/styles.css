@@ -5,7 +5,6 @@
 }
 
 .container {
-  display: flex;
   max-width: 1158px;
   margin: 0 auto;
   padding: 0 15px;
@@ -26,6 +25,10 @@ img {
 .header {
   background-color: #ffffff;
   border-bottom: 1px solid #e7e9fc;
+}
+
+.header .container {
+  display: flex;
 }
 
 .logo {
@@ -68,6 +71,8 @@ img {
   color: #2e2f42;
   padding-top: 24px;
   padding-bottom: 24px;
+  padding-left: 0; 
+  margin: 0;
 }
 
 .menu-link:hover,
@@ -176,6 +181,8 @@ img {
   gap: 24px;
   list-style: none;
   justify-content: space-around;
+  padding-left: 0; 
+  margin: 0;
 }
 
 .feature-item {
@@ -243,6 +250,8 @@ img {
   gap: 24px;
   list-style: none;
   justify-content: space-around;
+  padding-left: 0; 
+  margin: 0;
 }
 
 .team-list li:first-child {
@@ -334,8 +343,7 @@ img {
 }
 
 .footer .container {
-  display: flex;
-  flex-direction: column; /* Расположение элементов по вертикали */
+  flex-direction: column; 
   align-items: right;
 }
 
