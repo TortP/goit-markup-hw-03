@@ -347,10 +347,7 @@ img {
 
 .footer .logo {
   display: inline-block;
-}
-
-.footer a {
-  display: inline-block;
+  margin-bottom: 16px;
 }
 
 .footer .logo-footer {
