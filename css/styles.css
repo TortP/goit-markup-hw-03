@@ -185,8 +185,9 @@ img {
   margin: 0;
 }
 
-.features-list li:first-child {
-  width: calc((100% - 72px) / 4);
+.features-list li {
+  flex-basis: calc((100% - 72px) / 4);
+  box-sizing: border-box;
 }
 
 
@@ -255,8 +256,9 @@ img {
   margin: 0;
 }
 
-.team-list li:first-child {
-  width: calc((100% - 72px) / 4);
+.team-list li {
+  flex-basis: calc((100% - 72px) / 4);
+  box-sizing: border-box;
 }
 
 .team-card {
@@ -307,8 +309,9 @@ img {
   justify-content: space-between;
 }
 
-.portfolio-list li:first-child {
-  width: calc((100% - 48px) / 3);
+.portfolio-list li {
+  flex-basis: calc((100% - 48px) / 3); /* Ширина каждого элемента для трех в ряду */
+  box-sizing: border-box;
 }
 
 .portfolio-item {
