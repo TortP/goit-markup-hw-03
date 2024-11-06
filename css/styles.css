@@ -334,8 +334,10 @@ img {
   text-align: left;
 }
 
-.footer .ocntainer {
-  display: block;
+.footer .container {
+  display: flex;
+  flex-direction: column; /* Расположение элементов по вертикали */
+  align-items: right;
 }
 
 .footer-text {
@@ -343,6 +345,7 @@ img {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  width: 264px;
 }
 
 .footer .logo {
