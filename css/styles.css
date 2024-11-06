@@ -71,7 +71,7 @@ img {
   color: #2e2f42;
   padding-top: 24px;
   padding-bottom: 24px;
-  padding-left: 0; 
+  padding-left: 0;
   margin: 0;
 }
 
@@ -181,7 +181,7 @@ img {
   gap: 24px;
   list-style: none;
   justify-content: space-around;
-  padding-left: 0; 
+  padding-left: 0;
   margin: 0;
 }
 
@@ -189,7 +189,6 @@ img {
   flex-basis: calc((100% - 72px) / 4);
   box-sizing: border-box;
 }
-
 
 .features .container {
   display: block;
@@ -252,7 +251,7 @@ img {
   gap: 24px;
   list-style: none;
   justify-content: space-around;
-  padding-left: 0; 
+  padding-left: 0;
   margin: 0;
 }
 
@@ -264,7 +263,8 @@ img {
 .team-card {
   background-color: #ffffff;
   border-radius: 0px 0px 4px 4px;
-  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
+    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
 
 .team-employers {
@@ -310,7 +310,7 @@ img {
 }
 
 .portfolio-list li {
-  flex-basis: calc((100% - 48px) / 3); /* Ширина каждого элемента для трех в ряду */
+  width: calc((100% - 48px) / 3); /* Ширина каждого элемента для трех в ряду */
   box-sizing: border-box;
 }
 
@@ -349,7 +349,7 @@ img {
 }
 
 .footer .container {
-  flex-direction: column; 
+  flex-direction: column;
   align-items: right;
 }
 
